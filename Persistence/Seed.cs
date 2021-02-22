@@ -20,8 +20,8 @@ namespace Persistence
                     Date = DateTime.Now.AddMonths(-2),
                     Description = "Activity 2 months ago",
                     Category = "drinks",
-                    City = "London",
-                    Venue = "Pub",
+                    City = "Cluj-Napoca",
+                    Venue = "Jack's Pub",
                 },
                 new Activity
                 {
@@ -29,17 +29,17 @@ namespace Persistence
                     Date = DateTime.Now.AddMonths(-1),
                     Description = "Activity 1 month ago",
                     Category = "culture",
-                    City = "Paris",
-                    Venue = "Louvre",
+                    City = "Iasi",
+                    Venue = "National Theater",
                 },
                 new Activity
                 {
                     Title = "Future Activity 1",
                     Date = DateTime.Now.AddMonths(1),
                     Description = "Activity 1 month in future",
-                    Category = "culture",
-                    City = "London",
-                    Venue = "Natural History Museum",
+                    Category = "sports",
+                    City = "Bucharest",
+                    Venue = "National Arena",
                 },
                 new Activity
                 {
@@ -47,17 +47,17 @@ namespace Persistence
                     Date = DateTime.Now.AddMonths(2),
                     Description = "Activity 2 months in future",
                     Category = "music",
-                    City = "London",
-                    Venue = "O2 Arena",
+                    City = "Brasov",
+                    Venue = "Central Market",
                 },
                 new Activity
                 {
                     Title = "Future Activity 3",
                     Date = DateTime.Now.AddMonths(3),
                     Description = "Activity 3 months in future",
-                    Category = "drinks",
-                    City = "London",
-                    Venue = "Another pub",
+                    Category = "family visit",
+                    City = "Iasi",
+                    Venue = "Mom's house",
                 },
                 new Activity
                 {
@@ -65,17 +65,17 @@ namespace Persistence
                     Date = DateTime.Now.AddMonths(4),
                     Description = "Activity 4 months in future",
                     Category = "drinks",
-                    City = "London",
-                    Venue = "Yet another pub",
+                    City = "Tg-Jiu",
+                    Venue = "Friend's house",
                 },
                 new Activity
                 {
                     Title = "Future Activity 5",
                     Date = DateTime.Now.AddMonths(5),
                     Description = "Activity 5 months in future",
-                    Category = "drinks",
-                    City = "London",
-                    Venue = "Just another pub",
+                    Category = "sports",
+                    City = "Constanta",
+                    Venue = "Gheorghe Hagi Stadium",
                 },
                 new Activity
                 {
@@ -92,8 +92,8 @@ namespace Persistence
                     Date = DateTime.Now.AddMonths(7),
                     Description = "Activity 2 months ago",
                     Category = "travel",
-                    City = "London",
-                    Venue = "Somewhere on the Thames",
+                    City = "Rome",
+                    Venue = "Colosseum",
                 },
                 new Activity
                 {
@@ -101,7 +101,7 @@ namespace Persistence
                     Date = DateTime.Now.AddMonths(8),
                     Description = "Activity 8 months in future",
                     Category = "film",
-                    City = "London",
+                    City = "Leicester",
                     Venue = "Cinema",
                 }
             };
